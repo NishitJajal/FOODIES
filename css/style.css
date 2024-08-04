@@ -235,7 +235,7 @@ Header Design
 
 .top-banner {
     width: 100%;
-    background: url('/images/bg/bg-1.jpg') no-repeat center;
+    background: url('images/bg/bg-1.jpg') no-repeat center;
     background-size: cover;
     padding: 12rem 9rem;
 }
