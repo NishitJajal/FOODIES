@@ -221,6 +221,10 @@ Header Design
     margin-left: 0.625rem;
 }
 
+.navbar-brand img{
+    height: 60px;
+}
+
 /* Changing the style of navbar on scrolling */
 
 .navigation-wrap.scroll-on{
