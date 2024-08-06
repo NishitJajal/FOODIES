@@ -1,108 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foodies</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodies</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive_style.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive_style.css">
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <!-- Header Design -->
-    <header>
-        <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-lg navigation-wrap">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="logo"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <!-- <i class="fas fa-stream navbar-toggler-icon"></i> -->
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">About Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#explore-food">Explore Foods</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link " href="#testimonial">Reviews</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link " href="#faq">FAQs</a>
-                  </li>
-                  <li>
-                    <button class="main-btn">1200 345 123</button>
-                  </li>
-                </ul>
+  <!-- Header Design -->
+  <header>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navigation-wrap">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <i class="fas fa-stream navbar-toggler-icon"></i> -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#explore-food">Explore Foods</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#faq">FAQs</a>
+            </li>
+            <li>
+              <button class="main-btn">1200 345 123</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Section :- 1 Top Banner -->
+  <section id="home">
+    <div class="container-fluid px-0 top-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-6">
+            <h1>Good food choices are good investment</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit molestiae ex cum nam illo quasi, alias modi
+              sed fugit dolorum!</p>
+            <div class="mt-4">
+              <button class="main-btn">Order now <i class="fas fa-shopping-basket ps-3"></i></button>
+              <button class="white-btn ms-lg-4 mt-lg-0 mt-4">Explore<i class="fas fa-angle-right ps-3"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section :- 2 Counter -->
+  <section id="counter">
+    <section class="counter-section">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3 md-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="counter-one"></span>+
+            </h2>
+            <p>SAVINGS</p>
+          </div>
+          <div class="col-md-3 md-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="counter-two"></span>+
+            </h2>
+            <p>PHOTOS</p>
+          </div>
+          <div class="col-md-3 md-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="counter-three"></span>+
+            </h2>
+            <p>GLOBES</p>
+          </div>
+          <div class="col-md-3 md-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="counter-four"></span>+
+            </h2>
+            <p>ROCKETS</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- Section :- 3 About -->
+
+  <section id="about">
+    <div class="about-section wrapper">
+      <div class="container">
+        <div class="row align-item-center">
+          <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+            <div class="card border-0">
+              <img src="./images/img-1.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12 text-sec">
+            <h2>We pride ourselves on making real food from the beat ingredients.</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex error, molestias id harum alias quidem ea,
+              amet eius cupiditate temporibus quam voluptates nobis pariatur ratione est ipsam laudantium.
+            </p>
+            <button class="main-btn mt-4">Learn more</button>
+          </div>
+        </div>
+      </div>
+      <div class="container food-type">
+        <div class="row align-item-center">
+          <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+            <h2>We make everything by hand with the best possible ingredients.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, illum! Voluptatem, animi nostrum, aspernatur
+              sequi dicta nam labore ducimus fugit voluptate dolore laudantium temporibus necessitatibus!</p>
+            <ul class="list-unstyled py-3">
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+            </ul>
+            <button class="main-btn mt-4">Learn more</button>
+          </div>
+          <div class="col-lg-7 col-md-12">
+            <div class="card border-0">
+              <img src="./images/img-2.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section :- 3 Story -->
+  <section id="story">
+    <div class="story-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="text-content">
+              <h2>When a man's stomach is full it makes no difference whether he is rich or poor.</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores laboriosam, commodi maiores inventore
+                dolorem eligendi eius temporibus iusto quod nisi, non quaerat harum quasi impedit.</p>
+              <button class="main-btn mt-4">Read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section :- 4 Explore Food -->
+  <section id="explore-food">
+    <div class="explore-food wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="text-content text-center">
+              <h2>Explore Our foods</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti cum, modi iure quibusdam porro,
+                neque necessitatibus repudiandae, voluptatem labore culpa esse earum recusandae pariatur molestiae
+                corporis ex sapiente est. Beatae, voluptas! Tempora ullam iure quia?</p>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card">
+              <img src="./images/img-3.jpg" class="img-fluid" alt="">
+              <div class="pt-3">
+                <h4>Rainbow Vegetable Sandwich</h4>
+                <p>Time : 15 - 20 minutes | Serves : 1</p>
+                <span>$10.50 <del>$11.70</del></span>
+                <button class="main-btn mt-4">Order Now</button>
               </div>
             </div>
-          </nav>
-    </header>
-    <!-- Section :- 1 Top Banner -->
-    <section id="home">
-        <div class="container-fluid px-0 top-banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5 col-md-6">
-                        <h1>Good food choices are good investment</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit molestiae ex cum nam illo quasi, alias modi sed fugit dolorum!</p>
-                        <div class="mt-4">
-                            <button class="main-btn">Order now <i class="fas fa-shopping-basket ps-3"></i></button>
-                            <button class="white-btn ms-lg-4 mt-lg-0 mt-4">Explore<i class="fas fa-angle-right ps-3"></i></button>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card">
+              <img src="./images/img-4.jpg" class="img-fluid" alt="">
+              <div class="pt-3">
+                <h4>Vegetable Burger</h4>
+                <p>Time : 15 - 20 minutes | Serves : 1</p>
+                <span>$9.20 <del>$10.50</del></span>
+                <button class="main-btn mt-4">Order Now</button>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card">
+              <img src="./images/img-5.jpg" class="img-fluid" alt="">
+              <div class="pt-3">
+                <h4>Raspberry Stuffed French toast</h4>
+                <p>Time : 10 - 15 minutes | Serves : 1</p>
+                <span>$12.50 <del>$13.50</del></span>
+                <button class="main-btn mt-4">Order Now</button>
+              </div>
+            </div>
+          </div>
+
         </div>
-    </section>
-    <!-- Section :- 2 Counter -->
-    <section id="counter">
-        <section class="counter-section">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-md-3 md-lg-0 mb-md-0 mb-5">
-                        <h2>
-                            <span id="counter-one"></span>+
-                        </h2>
-                        <p>SAVINGS</p>
-                    </div>
-                    <div class="col-md-3 md-lg-0 mb-md-0 mb-5">
-                        <h2>
-                            <span id="counter-two"></span>+
-                        </h2>
-                        <p>PHOTOS</p>
-                    </div>
-                    <div class="col-md-3 md-lg-0 mb-md-0 mb-5">
-                        <h2>
-                            <span id="counter-three"></span>+
-                        </h2>
-                        <p>GLOBES</p>
-                    </div>
-                    <div class="col-md-3 md-lg-0 mb-md-0 mb-5">
-                        <h2>
-                            <span id="counter-four"></span>+
-                        </h2>
-                        <p>ROCKETS</p>
-                    </div>
-                </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section :- 5 FAQs-->
+  <section id="faq">
+    <div class="faq wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="text-center pb-4">
+              <h2>Frequently Asked Questoins</h2>
             </div>
-        </section>
-    </section>
-    <!-- Section :- 3 About -->
-    <!-- Section :- 3 Story -->
-    <!-- Section :- 4 Explore Food -->
-    <script src="./JS/script.js"></script>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-sm-6 mb-4">
+            <h4><span>~</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptatibus.</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est sapiente tempora aliquam ut eligendi illum
+              reiciendis eveniet, eum nobis voluptatum.</p>
+          </div>
+          <div class="col-sm-6 mb-4">
+            <h4><span>~</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptatibus.</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est sapiente tempora aliquam ut eligendi illum
+              reiciendis eveniet, eum nobis voluptatum.</p>
+          </div>
+          <div class="col-sm-6 mb-4">
+            <h4><span>~</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptatibus.</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est sapiente tempora aliquam ut eligendi illum
+              reiciendis eveniet, eum nobis voluptatum.</p>
+          </div>
+          <div class="col-sm-6 mb-4">
+            <h4><span>~</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptatibus.</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est sapiente tempora aliquam ut eligendi illum
+              reiciendis eveniet, eum nobis voluptatum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section :- 6 -->
+  <section id="book-food">
+    <div class="book-food">
+      <div class="container book-food-text">
+        <div class="row text-center">
+          <div class="col-lg-9 col-md-12">
+            <h2>Baked daily by bakers with passion.</h2>
+          </div>
+          <div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
+            <button class="main-btn">Learn more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section :- 7 Footer -->
+  <footer id="footer">
+    <div class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <a href="#" class="footer-link">Register</a>
+            <a href="#" class="footer-link">Forum</a>
+            <a href="#" class="footer-link">Affiliate</a>
+            <a href="#" class="footer-link">FAQs</a>
+            <div class="footer-social pt-4 text-center">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="footer-copy">
+              <div class="copy-right text-center pt-5">
+                <p class="text-light">2021. Foodies All rights reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./JS/script.js"></script>
 </body>
+
 </html>
